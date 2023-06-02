@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import AppInput from './core/AppInput.vue'
+import AppCard from './core/AppCard.vue'
 </script>
 
 <template>
-  <div class="bg-white shadow border p-10 rounded text-center md:-mt-24">
-    <h3 class="text-lg font-semibold font-serif mb-5">Filtrar dados sobre um país</h3>
+  <app-card title="Filtrar dados sobre um país">
     <div class="px-20">
       <form>
         <app-input />
       </form>
     </div>
-  </div>
+  </app-card>
 </template>

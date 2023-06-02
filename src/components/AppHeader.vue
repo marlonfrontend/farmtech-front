@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppBrand from './core/AppBrand.vue'
+</script>
 
 <template>
   <header class="bg-white shadow-md h-16 flex items-center">
     <div class="container">
-      <router-link to="/">
-        <img class="logo" alt="Covidômetro" src="@/assets/images/logo.png" />
-      </router-link>
+      <app-brand />
     </div>
   </header>
 </template>
