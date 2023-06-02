@@ -9,8 +9,11 @@ module.exports = {
         screens: {
           sm: '600px',
           md: '728px',
-          lg: '984px',
-          xl: '1200px'
+          lg: '1024px',
+          xl: '1220px'
+        },
+        padding: {
+          DEFAULT: '1rem',
         },
       },
       colors: {
@@ -20,6 +23,17 @@ module.exports = {
         primary: '#EF6160'
       }
     },
+    fontFamily: {
+      sans: ["Montserrat"],
+      serif: ["Spectral"],
+    },
+    fontSize: {
+      base: '16px',
+      lg: '28px',
+      '2xl': '35px',
+      '3xl': '42px',
+      '4xl': '55px'
+    }
   },
   plugins: [],
 }
