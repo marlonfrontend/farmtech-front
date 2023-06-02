@@ -10,10 +10,7 @@ module.exports = {
           sm: '600px',
           md: '728px',
           lg: '1024px',
-          xl: '1220px'
-        },
-        padding: {
-          DEFAULT: '1rem',
+          xl: '1200px'
         },
       },
       colors: {
