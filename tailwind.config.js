@@ -27,6 +27,7 @@ module.exports = {
     fontSize: {
       base: '16px',
       lg: '28px',
+      xl: '32px',
       '2xl': '35px',
       '3xl': '42px',
       '4xl': '55px'

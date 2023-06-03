@@ -1,7 +1,16 @@
 <script setup lang="ts">
+import { storeToRefs } from 'pinia'
+import { useCountryStore } from '@/stores'
+
 import AppSectionHero from '@/components/AppSectionHero.vue'
 import AppCountryInfoList from '@/components/AppCountryInfoList.vue'
 import AppSearchCard from '@/components/AppSearchCard.vue'
+
+const { fetchCountries } = useCountryStore()
+
+const { countries } = storeToRefs(useCountryStore())
+
+fetchCountries()
 </script>
 
 <template>
@@ -11,6 +20,6 @@ import AppSearchCard from '@/components/AppSearchCard.vue'
   />
   <div class="max-w-[780px] px-4 md:px-0 mx-auto flex flex-col gap-6">
     <app-search-card class="md:-mt-24" />
-    <app-country-info-list />
+    <app-country-info-list :items="countries" />
   </div>
 </template>

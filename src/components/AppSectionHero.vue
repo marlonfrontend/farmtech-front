@@ -1,12 +1,10 @@
 <script setup lang="ts">
-const props = defineProps({
-  title: {
-    type: String
-  },
-  subtitle: {
-    type: String
-  }
-})
+interface Props {
+  title?: string
+  subtitle?: string
+}
+
+const props = defineProps<Props>()
 
 defineExpose(props)
 </script>
