@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  content: [],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       container: {
@@ -10,7 +9,7 @@ module.exports = {
           sm: '600px',
           md: '728px',
           lg: '1024px',
-          xl: '1200px'
+          xl: '1220px'
         },
       },
       colors: {
