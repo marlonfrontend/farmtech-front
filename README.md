@@ -1,13 +1,11 @@
 # Teste FarmTech
 Teste: [Demo](https://farmtech-front.vercel.app/)
 
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Project Stack
-1 - Vue 3 in Vite
-2 - Tailwind CSS
-3 - Vitest
-4 - Cypress e2e
+- Vue 3 in Vite
+- Tailwind CSS
+- Vitest
+- Cypress e2e
 
 ## Recommended IDE Setup
 
