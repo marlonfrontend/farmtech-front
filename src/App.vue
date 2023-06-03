@@ -1,6 +1,9 @@
 <script setup lang="ts">
+import { useCountryStore } from '@/stores'
 import { RouterView } from 'vue-router'
-import AppHeader from '@/components/AppHeader.vue'
+
+const { fetchCountries } = useCountryStore()
+fetchCountries()
 </script>
 
 <template>
