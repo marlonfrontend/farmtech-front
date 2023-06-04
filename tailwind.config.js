@@ -19,17 +19,20 @@ module.exports = {
         primary: '#EF6160'
       }
     },
+    boxShadow: {
+      DEFAULT: '0 1px 5px rgba(0,0,0,0.06)',
+      md: '2px 2px 8px rgba(0,0,0,0.06)',
+    },
     fontFamily: {
       sans: ["Montserrat"],
       serif: ["Spectral"],
     },
     fontSize: {
       base: '16px',
-      lg: '28px',
-      xl: '32px',
-      '2xl': '35px',
-      '3xl': '42px',
-      '4xl': '55px'
+      lg: '22px',
+      xl: '28px',
+      '2xl': '34px',
+      '3xl': '55px',
     }
   },
   plugins: [],
