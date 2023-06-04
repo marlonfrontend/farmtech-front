@@ -16,11 +16,7 @@ declare module '@vue/runtime-core' {
     AppInput: typeof import('./src/components/core/AppInput.vue')['default']
     AppSkeleton: typeof import('./src/components/core/AppSkeleton.vue')['default']
     AppStatistic: typeof import('./src/components/core/AppStatistic.vue')['default']
-    CountryInfoCard: typeof import('./src/components/CountryInfoCard.vue')['default']
-    CountryInfoList: typeof import('./src/components/CountryInfoList.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SearchCard: typeof import('./src/components/SearchCard.vue')['default']
-    SectionHero: typeof import('./src/components/SectionHero.vue')['default']
   }
 }

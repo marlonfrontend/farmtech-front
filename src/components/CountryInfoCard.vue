@@ -1,8 +1,8 @@
 <script setup lang="ts">
 export interface CountryInfoProps {
   country: string
-  infected: number | string
-  deceased: number | string
+  infected: number
+  deceased: number
   fatality: number | string
 }
 const props = defineProps<CountryInfoProps>()
