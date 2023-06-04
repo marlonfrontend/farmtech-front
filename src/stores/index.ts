@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia'
+import { isInfinite } from '@/utils/formatter'
+
 import type { CountryInfoProps } from '@/components/CountryInfoCard.vue'
 
 type StateProps = {
@@ -23,8 +25,8 @@ export const useCountryStore = defineStore('country', {
         .then(
           (data) =>
             (this.countries = data.map((item: CountryInfoProps) => {
-              const percentage = ((item.deceased / item.infected) * 100).toFixed(2) + '%'
-              return { ...item, fatality: percentage }
+              const value = ((item.deceased / item.infected) * 100).toFixed(2)
+              return { ...item, fatality: isInfinite(value as any) }
             }))
         )
         .catch((error) => console.log(error))
