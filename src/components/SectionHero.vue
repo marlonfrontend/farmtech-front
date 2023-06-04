@@ -12,8 +12,8 @@ defineExpose(props)
 <template>
   <section class="container px-4">
     <div class="flex items-center justify-between">
-      <div class="max-w-[600px] text-center md:text-left md:mb-32 mb-12">
-        <h2 v-if="title" v-html="title" class="text-3xl font-semibold md:text-4xl font-serif"></h2>
+      <div class="md:max-w-[400px] lg:max-w-[600px] text-center md:text-left md:mb-32 mb-12">
+        <h1 v-if="title" v-html="title" class="text-2xl font-semibold md:text-3xl font-serif"></h1>
         <p v-if="subtitle" v-html="subtitle" class="font-medium"></p>
       </div>
       <div class="-mt-8 hidden md:block">

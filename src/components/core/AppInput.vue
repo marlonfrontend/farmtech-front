@@ -10,7 +10,8 @@ const props = defineProps({
 })
 
 const classInput = computed(() => ({
-  'border-0 border-b border-primary w-full py-2 focus:outline-none': true,
+  'border-0 border-b border-primary w-full py-2 outline-none focus:border-opacity-50 transition-all duration-200 font-medium':
+    true,
   'pl-10': props.icon
 }))
 

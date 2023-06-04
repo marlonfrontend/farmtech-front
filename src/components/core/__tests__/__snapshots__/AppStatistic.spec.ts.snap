@@ -2,7 +2,6 @@
 
 exports[`AppStatistic.vue > should render component props 1`] = `
 "<div class=\\"text-center\\">
-  <div data-testid=\\"title\\" class=\\"font-medium\\">Hello Word</div>
-  <div class=\\"font-serif text-primary text-xl\\"><span data-testid=\\"value\\">10</span></div>
+  <div class=\\"font-medium\\">Stats Title</div><span class=\\"font-serif text-primary text-xl\\">10</span>
 </div>"
 `;

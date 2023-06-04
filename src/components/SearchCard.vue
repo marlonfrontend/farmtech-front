@@ -6,7 +6,7 @@ const countryStore = useCountryStore()
 
 <template>
   <app-card title="Filtrar dados sobre um país">
-    <form class="px-20">
+    <form class="md:px-20">
       <app-input v-model="countryStore.filter" icon="search" placeholder="Digite o nome do país" />
     </form>
   </app-card>
